@@ -1,0 +1,40 @@
+div div { border: solid;
+    width: 30%; 
+    height: 400px;
+    margin: 1%;
+    float: left; 
+  }
+.BtnEnlace{
+
+  background-color: #740707; /* Green */
+  border: none;
+  color: white;
+  padding: 2px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  position: absolute;
+}
+img{
+  
+  size: 20%;
+}
+
+p{
+font-style:italic;
+font-size:large;
+}
+i{
+  text-decoration: none;
+}
+.divfigura{
+  padding: 3%;
+  height: 600px;
+}
+@media screen and (max-width: 720px) {
+div div { border: solid;
+        width: 90%; 
+        height: 400px;
+        margin: 5%; }
+      }
